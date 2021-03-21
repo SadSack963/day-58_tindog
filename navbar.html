@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar Demo</title>
+
+    <!-- Link to Bootstrap CSS -->
+    <!-- Loads CSS from Content Delivery Network (CDN) if it does not already exist on the user's browser -->
+    <!-- This is faster than loading Bootstrap from CSS included with the web page, because the browser caches the external CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+<!--
+expand allows the navbar to expand horizontally.
+It will revert to vertical if the client screen is too small.
+https://getbootstrap.com/docs/4.0/components/navbar/#how-it-works
+-->
+<!--
+bg-dark overrides the style background-color.
+https://getbootstrap.com/docs/4.0/utilities/colors/#background-color
+-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: teal">
+    <a class="navbar-brand" href="">tindog</a>
+
+    <!--
+    Toggler button
+    https://getbootstrap.com/docs/4.5/components/navbar/#toggler
+    -->
+    <!-- ##### NOTE: Toggler works in Codeply but not in Chrome/Firefox/Opera ##### -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--
+    collapse the navbar items into a toggler dropdown list
+    https://getbootstrap.com/docs/4.0/components/collapse/
+    -->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <!--
+        ml-auto adds a margin-left which moves the list to the right edge
+        https://getbootstrap.com/docs/4.5/utilities/spacing/#notation
+        -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Download</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<p>NOTE: Using Bootstrap 4.0.0.<br>
+    Toggler works in Codeply, but in Chrome/Firefox/Opera
+    the dropdown list does not appear when the button is clicked</p>
+
+</body>
+</html>
