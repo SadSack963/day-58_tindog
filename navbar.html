@@ -25,10 +25,9 @@ https://getbootstrap.com/docs/4.0/utilities/colors/#background-color
     <a class="navbar-brand" href="">tindog</a>
 
     <!--
-    Toggler button
+    Toggler button - Remember to use the JavaScript!
     https://getbootstrap.com/docs/4.5/components/navbar/#toggler
     -->
-    <!-- ##### NOTE: Toggler works in Codeply but not in Chrome/Firefox/Opera ##### -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -56,9 +55,12 @@ https://getbootstrap.com/docs/4.0/utilities/colors/#background-color
         </ul>
     </div>
 </nav>
-<p>NOTE: Using Bootstrap 4.0.0.<br>
-    Toggler works in Codeply, but in Chrome/Firefox/Opera
-    the dropdown list does not appear when the button is clicked</p>
+<p class="p-xl-2 font-weight-bold">NOTE: Using Bootstrap 4.0.0.<br>
+    Remember to use the JavaScript just before the closing &lt/body&gt tag.</p>
 
+<!-- JavaScript required by some Bootstrap functions -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
