@@ -75,7 +75,11 @@ h3 {
 
 /* Features Section */
 .div-features {
+    background-color: white;
     padding: 7% 15%;
+    position: relative;
+    top: -200px;
+    z-index: 1; /* Hide the image behind the Features Section */
 }
 
 .col-features {
@@ -130,3 +134,15 @@ h3 {
 
 
 /* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.col-pricing {
+    padding: 3% 2%;
+}
+
+.hidden {
+    visibility: hidden;
+}
