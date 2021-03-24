@@ -194,7 +194,7 @@
                     <p>Unlimited Messages</p>
                     <p>Unlimited App Usage</p>
                     <p class="hidden">Blank line</p>
-               </div>
+                </div>
                 <div class="card-footer">
                     <button type="button" class="card-btn btn-lg btn-dark w-100">Sign Up</button>
                 </div>
@@ -227,10 +227,17 @@
 
 <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <div class="row">
+        <div class="col col-cta">
 
+            <h3>Find the True Love of Your Dog's Life Today.</h3>
+            <button type="button" class="btn btn-lg btn-dark download-btn"><i class="fab fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-light download-btn"><i
+                    class="fab fa-google-play"></i> Download
+            </button>
+        </div>
+    </div>
 </section>
 
 
@@ -238,7 +245,22 @@
 
 <footer id="footer">
 
-    <p>© Copyright 2018 TinDog</p>
+    <!-- Get the current year -->
+    <script>
+        window.onload = function() {
+            document.getElementById("spanYear").innerHTML = new Date().getFullYear();
+        }
+    </script>
+
+    <div class="div-footer">
+        <p>
+            <i class="fab fa-twitter icon-footer"></i>
+            <i class="fab fa-facebook-f icon-footer"></i>
+            <i class="fab fa-instagram icon-footer"></i>
+            <i class="far fa-envelope icon-footer"></i>
+        </p>
+        <p>&#9400; 2021 - <span id="spanYear"></span> Designed by John, at home in Milton Keynes.</p>
+    </div>
 
 </footer>
 </body>

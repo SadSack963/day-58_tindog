@@ -156,3 +156,31 @@ h3 {
 .hidden {
     visibility: hidden;
 }
+
+
+/* Call to Action Section */
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 50px;
+}
+
+.col-cta {
+    text-align: center;
+}
+
+
+/* Footer Section */
+#footer {
+    background-color: white;
+    padding: 50px;
+}
+
+.div-footer {
+    text-align: center;
+}
+
+.icon-footer{
+    font-size: 2rem;
+    padding: 10px 20px;
+}
