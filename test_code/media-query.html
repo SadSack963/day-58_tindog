@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Title</title>
+    <title>Media Queries</title>
+
+    <style>
+    /* Media Query Syntax: <https://www.w3schools.com/cssref/css3_pr_mediaquery.asp>
+
+    @media not|only mediatype and (mediafeature and|or|not mediafeature) {
+        CSS-Code;
+    }
+
+    You can also have different stylesheets for different media, like this:
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+
+    */
+        h1 {
+            color: blue;
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 900px) {
+            h1 {
+                color: red;
+                font-size: 60px;
+            }
+        }
+
+    </style>
+
 </head>
 <body>
+
+    <h1>Hello World</h1>
+
 
 </body>
 </html>
