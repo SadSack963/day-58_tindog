@@ -9,6 +9,14 @@ body {
     text-align: center;
 }
 
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
 
 /* ==================== */
 /* ===== Headings ===== */
@@ -77,8 +85,6 @@ p {
 }
 
 #title {
-    background-color: #ff4c68;
-    color: white;
     text-align: left;
 }
 
@@ -100,7 +106,6 @@ p {
 /* ============================ */
 
 #features {
-    background-color: white;
     position: relative;
     z-index: 1; /* Hide the image behind the Features Section - (Optional, because of the HTML order) */
 }
@@ -134,7 +139,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: white;
 }
 
 .testimonial-text {
@@ -190,25 +194,10 @@ p {
 /* ===== Call to Action Section ===== */
 /* ================================== */
 
-#cta {
-    background-color: #ff4c68;
-    color: white;
-    padding: 50px;
-}
-
-.heading-cta {
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
 
 /* ========================== */
 /* ===== Footer Section ===== */
 /* ========================== */
-
-#footer {
-    background-color: white;
-}
 
 .icon-footer{
     font-size: 2rem;
